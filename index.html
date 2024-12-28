@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Splitter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="expense-splitter">
+        <header>
+            <h1>Expense Splitter</h1>
+            <p>Fairly split expenses with ease</p>
+        </header>
+        <main>
+            <div class="form-section">
+                <input type="number" id="total-amount" placeholder="Enter Total Amount" />
+                <input type="number" id="num-people" placeholder="Number of People" />
+                <button id="calculate-btn">Split Expense</button>
+            </div>
+            <div class="result-section">
+                <h2>Result</h2>
+                <p id="result">Each person owes: <span>₹0.00</span></p>
+            </div>
+        </main>
+        <footer>
+            <p>Built with Omkar for fair expense sharing</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
